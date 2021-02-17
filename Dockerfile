@@ -30,7 +30,8 @@ RUN python -m pip install --no-cached-dir numpy && \
             "pybtex>=0.22.2" \
             sphinx_rtd_theme \
             matplotlib \
-            cartopy
+            cartopy \
+            obspy
 
 ADD entrypoint.py /entrypoint.py
 ADD sphinx_action /sphinx_action
